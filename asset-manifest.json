@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/weather-app/static/css/main.a21db71f.css",
+    "main.js": "/weather-app/static/js/main.bf39db25.js",
+    "static/js/453.0ccb7fb4.chunk.js": "/weather-app/static/js/453.0ccb7fb4.chunk.js",
+    "static/media/game2.png": "/weather-app/static/media/game2.df2558487ea43065c3a4.png",
+    "static/media/icon-contact.png": "/weather-app/static/media/icon-contact.3cbba94535052922aefb.png",
+    "static/media/travel.png": "/weather-app/static/media/travel.dfa55bb5491c34d32756.png",
+    "static/media/icon-bg.png": "/weather-app/static/media/icon-bg.75eedaa714be9c8f6f49.png",
+    "static/media/main-bg.png": "/weather-app/static/media/main-bg.e825d2e5421a97644f67.png",
+    "static/media/weather.png": "/weather-app/static/media/weather.5c9d8bb6c85f3b955f54.png",
+    "static/media/skill-bg.jpg": "/weather-app/static/media/skill-bg.4a2fc246b29968ab601d.jpg",
+    "static/media/game1.png": "/weather-app/static/media/game1.66fe5c2a072e5fdb741d.png",
+    "static/media/CentraNo2-Bold.ttf": "/weather-app/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/weather-app/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/weather-app/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/loading.png": "/weather-app/static/media/loading.5b39a7dbfc140d4c0095.png",
+    "static/media/revicons.eot": "/weather-app/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/weather-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/cv-icon.png": "/weather-app/static/media/cv-icon.e4f2c9ab78d595da4b0f.png",
+    "static/media/revicons.woff": "/weather-app/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/react.svg": "/weather-app/static/media/react.b4aadc0713bb11142756748e605f70bd.svg",
+    "static/media/mysql.svg": "/weather-app/static/media/mysql.4c50926040e5a77a27dba211addc08e3.svg",
+    "static/media/java.svg": "/weather-app/static/media/java.5a30657de82ec68048a703cdcb6c935d.svg",
+    "static/media/icon-gitgub.svg": "/weather-app/static/media/icon-gitgub.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "static/media/link.svg": "/weather-app/static/media/link.d7e56e3efb8e2593cb2f0d275ad3dbe6.svg",
+    "static/media/kotlin.svg": "/weather-app/static/media/kotlin.3be6a9496260ac0f2ba604267372a6fe.svg",
+    "static/media/mongodb.svg": "/weather-app/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "static/media/js.svg": "/weather-app/static/media/js.19600440c8c62e3de974e2bba991871f.svg",
+    "index.html": "/weather-app/index.html",
+    "static/media/icon-linkedin.svg": "/weather-app/static/media/icon-linkedin.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/css.svg": "/weather-app/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "static/media/code.svg": "/weather-app/static/media/code.bcfe6d9fbea2de47cc91d49d1affef0e.svg",
+    "static/media/html.svg": "/weather-app/static/media/html.8ae3d4adcd70a1028a6377697d9f33b0.svg",
+    "main.a21db71f.css.map": "/weather-app/static/css/main.a21db71f.css.map",
+    "main.bf39db25.js.map": "/weather-app/static/js/main.bf39db25.js.map",
+    "453.0ccb7fb4.chunk.js.map": "/weather-app/static/js/453.0ccb7fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a21db71f.css",
+    "static/js/main.bf39db25.js"
+  ]
+}
