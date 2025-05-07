@@ -26,7 +26,7 @@ export const Projects = () => {
       description:
         "Built using HTML, an active API, and advanced CSS and JavaScript",
       imgUrl: weather,
-      Url: "",
+      Url: "https://hhgiang114.github.io/weather-react-app/",
       githubUrl: "https://github.com/hhgiang114/weather-react-app",
     },
     {
