@@ -1,31 +1,32 @@
 import "./App.css";
-import React from "react";
-import Weather from "./Weather";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { NavBar } from "./components/NavBar";
+import { About } from "./components/About";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import { TopButton } from "./components/TopButton";
+import { Toaster, toast } from "sonner";
+import { useEffect } from "react";
 
-export default function App() {
+function App() {
+  useEffect(() => {
+    toast.success("Welcome to my portfolio!");
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-Name">Weather App</header>
-      {/* Main part */}
-      <Weather defaultCity="Paris" />
-      <footer>
-        This project was coded by{" "}
-        <a
-          href="https://github.com/hhgiang114"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Giang Hoang
-        </a>{" "}
-        and is{" "}
-        <a
-          href="abc"
-          target="https://github.com/hhgiang114/weather-app"
-          rel="noopener noreferrer"
-        >
-          on GitHub
-        </a>
-      </footer>{" "}
+      <Toaster richColors expand={true} />
+      <NavBar />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+      <TopButton />
     </div>
   );
 }
+
+export default App;
