@@ -1,8 +1,19 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { SoftwareCard } from "./SoftwareCard";
-import proj1 from "../resource/img/SoPra/game1.png";
-import proj2 from "../resource/img/SoPra/game2.png";
+import img from "../resource/img/SoPra/img.png";
+import img1 from "../resource/img/SoPra/img1.png";
+import img2 from "../resource/img/SoPra/img2.png";
+import img3 from "../resource/img/SoPra/img3.png";
+import img4 from "../resource/img/SoPra/img4.png";
+import img5 from "../resource/img/SoPra/img5.png";
+
+import bonsai_img from "../resource/img/SoPra/bonsai_img.png";
+import bonsai_img1 from "../resource/img/SoPra/bonsai_img1.png";
+import bonsai_img2 from "../resource/img/SoPra/bonsai_img2.png";
+import bonsai_img3 from "../resource/img/SoPra/bonsai_img3.png";
+import bonsai_img4 from "../resource/img/SoPra/bonsai_img4.png";
+
 import travel from "../resource/img/Websites/travel.png";
 import weather from "../resource/img/Websites/weather.png";
 import loading from "../resource/img/Websites/loading.png";
@@ -39,14 +50,15 @@ export const Projects = () => {
   const software = [
     {
       title: "UpAndDown Game",
-      imgUrl: proj1,
+      imgUrl: [img, img1, img2, img3, img4, img5],
       githubUrl: "https://github.com/hhgiang114/UpAndDownGame",
-      description: "hihi",
+      description:
+        "A card game for two players, implemented in Kotlin using BoardGameWork-framework.",
     },
 
     {
       title: "BonsaiGame-Clone",
-      imgUrl: proj2,
+      imgUrl: [bonsai_img, bonsai_img1, bonsai_img2, bonsai_img3, bonsai_img4],
       githubUrl: "https://github.com/hhgiang114/BonsaiGame-copycat",
       description: "haha",
     },

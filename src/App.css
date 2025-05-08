@@ -588,7 +588,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .link-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: #0c2462;
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -624,6 +624,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
+.software-intro h3 {
+  color: #0c2462;
+}
+
+.software-intro p {
+  margin: 30px;
+}
+
+.software-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.software-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.software-section img:hover {
+  scale: 1.4;
+}
 /************ Contact Css ************/
 .contact {
   background: #f2c749;

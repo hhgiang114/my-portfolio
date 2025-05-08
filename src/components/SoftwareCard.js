@@ -16,7 +16,9 @@ export const SoftwareCard = ({ imgUrl, githubUrl, title, description }) => {
       >
         <Col xs={12} sm={7}>
           <div className="software-section">
-            <img src={imgUrl} alt="Projects" loading="lazy" />
+            {imgUrl.map((img, idx) => (
+              <img key={idx} src={img} alt={`Project image ${idx + 1}`} />
+            ))}
           </div>
         </Col>
         <Col xs={12} sm={5}>
