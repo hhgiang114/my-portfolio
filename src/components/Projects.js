@@ -60,7 +60,7 @@ export const Projects = () => {
       title: "BonsaiGame-Clone",
       imgUrl: [bonsai_img, bonsai_img1, bonsai_img2, bonsai_img3, bonsai_img4],
       githubUrl: "https://github.com/hhgiang114/BonsaiGame-copycat",
-      description: "haha",
+      description: "Reimplementation of a boardgame called Bonsai ",
     },
   ];
 
@@ -98,9 +98,9 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="second">Web App</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      {/* <Nav.Item>
                         <Nav.Link eventKey="third">Case study</Nav.Link>
-                      </Nav.Item>
+                      </Nav.Item> */}
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
@@ -122,13 +122,13 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="third">
+                      {/* <Tab.Pane eventKey="third">
                         <h1>
                           {"</>"}
                           <br />
                           Work in Progress
                         </h1>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
